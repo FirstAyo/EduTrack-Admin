@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default function SidebarMenu() {
   return (
     <div className="w-64 h-full bg-white shadow-md p-4">
-      <h2 className="text-xl font-bold mb-4">Sidebar Menu</h2>
+      <h2 className="text-xl font-bold mb-4">EduTrack</h2>
       <ul className="space-y-2 flex flex-col">
         <NavLink
           to="/"

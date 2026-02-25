@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ARP-001",
+    "name": "Marcia Baker",
+    "email": "marcia@example.com",
+    "contact": "(929) 558-6655",
+    "gender": "Boy",
+    "class": 10,
+    "section": "A",
+    "age": 15,
+    "address": "725 Southern Street, Garden City",
+    "avatar": "/avatars/student1.jpg"
+  },
+  {
+    "id": "ARP-002",
+    "name": "Carolyn Barnes",
+    "email": "barnes@example.com",
+    "contact": "(555) 332-5598",
+    "gender": "Girl",
+    "class": 10,
+    "section": "A",
+    "age": 16,
+    "address": "27 Rocket Drive, Eagan, MN 64",
+    "avatar": "/avatars/student2.jpg"
+  },
+  {
+    "id": "ARP-003",
+    "name": "Donna Miller",
+    "email": "donna@example.com",
+    "contact": "(222) 989-7728",
+    "gender": "Boy",
+    "class": 10,
+    "section": "B",
+    "age": 15,
+    "address": "95 Rosewood Lane, New York, NY 10",
+    "avatar": "/avatars/student3.jpg"
+  },
+  {
+    "id": "ARP-004",
+    "name": "Barbara Cross",
+    "email": "cross@example.com",
+    "contact": "(455) 775-4499",
+    "gender": "Girl",
+    "class": 10,
+    "section": "C",
+    "age": 14,
+    "address": "64 Hillview Street, Columbia, SC 37",
+    "avatar": "/avatars/student4.jpg"
+  },
+  {
+    "id": "ARP-005",
+    "name": "Rebecca Block",
+    "email": "block@example.com",
+    "contact": "(332) 6684-9807",
+    "gender": "Boy",
+    "class": 10,
+    "section": "B",
+    "age": 15,
+    "address": "94 Aspen Court, Hyde Park, MA 84",
+    "avatar": "/avatars/student5.jpg"
+  },
+  {
+    "id": "ARP-006",
+    "name": "Fern Green",
+    "email": "ferne@example.com",
+    "contact": "(929) 587-3696",
+    "gender": "Girl",
+    "class": 10,
+    "section": "A",
+    "age": 13,
+    "address": "95 Southern Avenue, Nevinville, LD 66",
+    "avatar": "/avatars/student6.jpg"
+  },
+  {
+    "id": "ARP-007",
+    "name": "Genevieve Varela",
+    "email": "varela@example.com",
+    "contact": "(555) 951-1599",
+    "gender": "Boy",
+    "class": 10,
+    "section": "A",
+    "age": 15,
+    "address": "83 Duncan Avenue, New York, NY 75",
+    "avatar": "/avatars/student7.jpg"
+  },
+  {
+    "id": "ARP-008",
+    "name": "Liam Carter",
+    "email": "liam@example.com",
+    "contact": "(718) 223-9044",
+    "gender": "Boy",
+    "class": 9,
+    "section": "B",
+    "age": 14,
+    "address": "12 Maple Street, Austin, TX 78",
+    "avatar": "/avatars/student8.jpg"
+  },
+  {
+    "id": "ARP-009",
+    "name": "Sophia Turner",
+    "email": "sophia@example.com",
+    "contact": "(646) 334-6678",
+    "gender": "Girl",
+    "class": 11,
+    "section": "C",
+    "age": 16,
+    "address": "220 Sunset Blvd, Los Angeles, CA 90",
+    "avatar": "/avatars/student9.jpg"
+  },
+  {
+    "id": "ARP-010",
+    "name": "Ethan Walker",
+    "email": "ethan@example.com",
+    "contact": "(917) 778-9901",
+    "gender": "Boy",
+    "class": 12,
+    "section": "A",
+    "age": 17,
+    "address": "77 Pine Avenue, Seattle, WA 45",
+    "avatar": "/avatars/student10.jpg"
+  }
+]

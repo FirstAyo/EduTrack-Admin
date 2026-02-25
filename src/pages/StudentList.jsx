@@ -3,6 +3,7 @@
 import React from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
+import Tables from "../components/sections/Tables";
 
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
@@ -13,6 +14,7 @@ const navMenus = [
 export default function StudentList() {
   return (
     <div>
+      {/* internal nav menu or breadcrumb */}
       <div className="flex justify-between">
         <h1>Student List</h1>
 
@@ -25,6 +27,8 @@ export default function StudentList() {
           ))}
         </div>
       </div>
+
+      <Tables />
     </div>
   );
 }
