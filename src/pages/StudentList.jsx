@@ -17,7 +17,7 @@ export default function StudentList() {
   return (
     <div>
       {/* internal nav menu or breadcrumb */}
-      <div className="flex justify-between">
+      <div className="flex justify-between w-full">
         <h1>Student List</h1>
 
         <div className="flex items-center text-sm text-slate-600">
