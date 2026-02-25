@@ -10,26 +10,40 @@ import sunIcon from "../../assets/icons/sun.svg";
 import userIcon from "../../assets/icons/user.svg";
 import envelopeIcon from "../../assets/icons/envelope.svg";
 import SelectLanguage from "./SelectLanguage";
+import UseProfile from "./UseProfile";
 
 const icons = [bellIcon, calendarIcon, envelopeIcon];
 
 export default function NavbarIcons() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [showLanguage, setShowLanguage] = useState(false);
+  const [showProfile, setShowProfile] = useState(false);
 
   const toggleTheme = () => {
     setIsDarkMode((prev) => !prev);
+  };
+
+  const toggleLanguage = () => {
+    setShowLanguage((prev) => !prev);
+  };
+
+  const toggleShowProfile = () => {
+    setShowProfile((prev) => !prev);
   };
 
   return (
     <div className="flex gap-3 items-center justify-end">
       {/* select language button */}
       <div>
-        <button className="flex py-2 px-2">
+        <button
+          className="flex py-2 px-2 cursor-pointer"
+          onClick={toggleLanguage}
+        >
           <img src={languageIcon} alt="language icon" className="w-6 h-6" />
           <img src={arrowDownIcon} alt="arrow down icon" className="w-6 h-6" />
         </button>
 
-        <SelectLanguage />
+        {showLanguage ? <SelectLanguage /> : ""}
       </div>
 
       {/* dark and light mode toggle button */}
@@ -49,10 +63,17 @@ export default function NavbarIcons() {
         ))}
       </div>
 
-      <button className="flex items-center">
-        <img src={userIcon} alt="user icon" className="w-10 h-10" />
-        <img src={arrowDownIcon} alt="arrow down icon" className="w-6 h-6" />
-      </button>
+      <div>
+        <button
+          className="flex items-center cursor-pointer"
+          onClick={toggleShowProfile}
+        >
+          <img src={userIcon} alt="user icon" className="w-10 h-10" />
+          <img src={arrowDownIcon} alt="arrow down icon" className="w-6 h-6" />
+        </button>
+
+        {showProfile ? <UseProfile /> : ""}
+      </div>
     </div>
   );
 }
