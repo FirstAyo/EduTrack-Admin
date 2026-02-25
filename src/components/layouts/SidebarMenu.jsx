@@ -26,6 +26,12 @@ export default function SidebarMenu() {
         >
           Teacher List
         </NavLink>
+        <NavLink
+          to="/stafflist"
+          className="p-2 hover:bg-gray-100 rounded cursor-pointer"
+        >
+          Staff List
+        </NavLink>
         <NavLink className="p-2 hover:bg-gray-100 rounded cursor-pointer">
           Classes
         </NavLink>

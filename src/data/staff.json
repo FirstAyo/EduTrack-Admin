@@ -1,0 +1,142 @@
+[
+  {
+    "id": "STF-001",
+    "profile": {
+      "name": "James Anderson",
+      "avatar": "/avatars/male1.svg"
+    },
+    "email": "james.anderson@school.com",
+    "contact": "(929) 558-2211",
+    "gender": "Male",
+    "department": "Administration",
+    "position": "Principal",
+    "experience": 12,
+    "address": "12 Maple Avenue, Garden City"
+  },
+  {
+    "id": "STF-002",
+    "profile": {
+      "name": "Emily Carter",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "emily.carter@school.com",
+    "contact": "(555) 332-7788",
+    "gender": "Female",
+    "department": "Mathematics",
+    "position": "Math Teacher",
+    "experience": 8,
+    "address": "27 River Street, Eagan, MN 64"
+  },
+  {
+    "id": "STF-003",
+    "profile": {
+      "name": "Michael Brown",
+      "avatar": "/avatars/male2.svg"
+    },
+    "email": "michael.brown@school.com",
+    "contact": "(222) 989-4433",
+    "gender": "Male",
+    "department": "Science",
+    "position": "Physics Teacher",
+    "experience": 10,
+    "address": "95 Rosewood Lane, New York, NY 10"
+  },
+  {
+    "id": "STF-004",
+    "profile": {
+      "name": "Sophia Wilson",
+      "avatar": "/avatars/female2.png"
+    },
+    "email": "sophia.wilson@school.com",
+    "contact": "(455) 775-8844",
+    "gender": "Female",
+    "department": "English",
+    "position": "English Teacher",
+    "experience": 6,
+    "address": "64 Hillview Street, Columbia, SC 37"
+  },
+  {
+    "id": "STF-005",
+    "profile": {
+      "name": "Daniel Thompson",
+      "avatar": "/avatars/male3.svg"
+    },
+    "email": "daniel.thompson@school.com",
+    "contact": "(332) 668-1122",
+    "gender": "Male",
+    "department": "Sports",
+    "position": "Physical Education Coach",
+    "experience": 9,
+    "address": "94 Aspen Court, Hyde Park, MA 84"
+  },
+  {
+    "id": "STF-006",
+    "profile": {
+      "name": "Olivia Martinez",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "olivia.martinez@school.com",
+    "contact": "(929) 587-8899",
+    "gender": "Female",
+    "department": "Administration",
+    "position": "Vice Principal",
+    "experience": 11,
+    "address": "95 Southern Avenue, Nevinville, LD 66"
+  },
+  {
+    "id": "STF-007",
+    "profile": {
+      "name": "William Garcia",
+      "avatar": "/avatars/male1.svg"
+    },
+    "email": "william.garcia@school.com",
+    "contact": "(555) 951-4477",
+    "gender": "Male",
+    "department": "IT",
+    "position": "IT Administrator",
+    "experience": 7,
+    "address": "83 Duncan Avenue, New York, NY 75"
+  },
+  {
+    "id": "STF-008",
+    "profile": {
+      "name": "Isabella Lee",
+      "avatar": "/avatars/female2.png"
+    },
+    "email": "isabella.lee@school.com",
+    "contact": "(718) 223-6655",
+    "gender": "Female",
+    "department": "Library",
+    "position": "Librarian",
+    "experience": 5,
+    "address": "12 Maple Street, Austin, TX 78"
+  },
+  {
+    "id": "STF-009",
+    "profile": {
+      "name": "Ethan Walker",
+      "avatar": "/avatars/male2.svg"
+    },
+    "email": "ethan.walker@school.com",
+    "contact": "(646) 334-8899",
+    "gender": "Male",
+    "department": "History",
+    "position": "History Teacher",
+    "experience": 14,
+    "address": "220 Sunset Blvd, Los Angeles, CA 90"
+  },
+  {
+    "id": "STF-010",
+    "profile": {
+      "name": "Ava Johnson",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "ava.johnson@school.com",
+    "contact": "(917) 778-5566",
+    "gender": "Female",
+    "department": "Counseling",
+    "position": "School Counselor",
+    "experience": 9,
+    "address": "77 Pine Avenue, Seattle, WA 45"
+  }
+]

@@ -1,5 +1,3 @@
-// src/pages/TeacherList.jsx
-
 import React from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
@@ -12,11 +10,11 @@ const navMenus = [
   { name: "Teacher List", image: dotIcon },
 ];
 
-export default function TeacherList() {
+export default function StaffList() {
   return (
     <div>
       <div className="flex justify-between">
-        <h1>Teacher List</h1>
+        <h1>Staff List</h1>
 
         <div className="flex items-center text-sm text-slate-600">
           {navMenus.map((navMenu, idx) => (

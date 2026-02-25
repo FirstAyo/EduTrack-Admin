@@ -1,0 +1,142 @@
+[
+  {
+    "id": "TCH-001",
+    "profile": {
+      "name": "Robert King",
+      "avatar": "/avatars/male1.svg"
+    },
+    "email": "robert.king@school.com",
+    "contact": "(929) 441-2201",
+    "gender": "Male",
+    "subject": "Mathematics",
+    "qualification": "M.Sc. Mathematics",
+    "experience": 10,
+    "address": "45 Oak Street, Garden City"
+  },
+  {
+    "id": "TCH-002",
+    "profile": {
+      "name": "Grace Hall",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "grace.hall@school.com",
+    "contact": "(555) 332-1102",
+    "gender": "Female",
+    "subject": "English",
+    "qualification": "M.A. English Literature",
+    "experience": 7,
+    "address": "89 Lakeview Drive, Eagan, MN 64"
+  },
+  {
+    "id": "TCH-003",
+    "profile": {
+      "name": "Christopher Adams",
+      "avatar": "/avatars/male2.svg"
+    },
+    "email": "christopher.adams@school.com",
+    "contact": "(222) 989-7783",
+    "gender": "Male",
+    "subject": "Physics",
+    "qualification": "M.Sc. Physics",
+    "experience": 12,
+    "address": "102 River Lane, New York, NY 10"
+  },
+  {
+    "id": "TCH-004",
+    "profile": {
+      "name": "Natalie Scott",
+      "avatar": "/avatars/female2.png"
+    },
+    "email": "natalie.scott@school.com",
+    "contact": "(455) 775-6634",
+    "gender": "Female",
+    "subject": "Chemistry",
+    "qualification": "M.Sc. Chemistry",
+    "experience": 9,
+    "address": "33 Pine Street, Columbia, SC 37"
+  },
+  {
+    "id": "TCH-005",
+    "profile": {
+      "name": "Benjamin Turner",
+      "avatar": "/avatars/male3.svg"
+    },
+    "email": "benjamin.turner@school.com",
+    "contact": "(332) 668-4405",
+    "gender": "Male",
+    "subject": "Biology",
+    "qualification": "M.Sc. Biology",
+    "experience": 8,
+    "address": "19 Aspen Court, Hyde Park, MA 84"
+  },
+  {
+    "id": "TCH-006",
+    "profile": {
+      "name": "Victoria Perez",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "victoria.perez@school.com",
+    "contact": "(929) 587-7706",
+    "gender": "Female",
+    "subject": "History",
+    "qualification": "M.A. History",
+    "experience": 11,
+    "address": "77 Southern Avenue, Nevinville, LD 66"
+  },
+  {
+    "id": "TCH-007",
+    "profile": {
+      "name": "Andrew Collins",
+      "avatar": "/avatars/male1.svg"
+    },
+    "email": "andrew.collins@school.com",
+    "contact": "(555) 951-9907",
+    "gender": "Male",
+    "subject": "Computer Science",
+    "qualification": "M.Sc. Computer Science",
+    "experience": 6,
+    "address": "18 Duncan Avenue, New York, NY 75"
+  },
+  {
+    "id": "TCH-008",
+    "profile": {
+      "name": "Hannah Reed",
+      "avatar": "/avatars/female2.png"
+    },
+    "email": "hannah.reed@school.com",
+    "contact": "(718) 223-8828",
+    "gender": "Female",
+    "subject": "Geography",
+    "qualification": "M.A. Geography",
+    "experience": 5,
+    "address": "65 Maple Street, Austin, TX 78"
+  },
+  {
+    "id": "TCH-009",
+    "profile": {
+      "name": "Matthew Young",
+      "avatar": "/avatars/male2.svg"
+    },
+    "email": "matthew.young@school.com",
+    "contact": "(646) 334-5569",
+    "gender": "Male",
+    "subject": "Economics",
+    "qualification": "M.A. Economics",
+    "experience": 14,
+    "address": "220 Sunset Blvd, Los Angeles, CA 90"
+  },
+  {
+    "id": "TCH-010",
+    "profile": {
+      "name": "Chloe Evans",
+      "avatar": "/avatars/female1.png"
+    },
+    "email": "chloe.evans@school.com",
+    "contact": "(917) 778-3300",
+    "gender": "Female",
+    "subject": "Art & Design",
+    "qualification": "B.A. Fine Arts",
+    "experience": 7,
+    "address": "101 Pine Avenue, Seattle, WA 45"
+  }
+]

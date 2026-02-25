@@ -13,7 +13,6 @@ const navMenus = [
 ];
 
 export default function StudentList() {
-  console.log(studentList[0].profile.name);
   return (
     <div>
       {/* internal nav menu or breadcrumb */}

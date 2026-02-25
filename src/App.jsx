@@ -7,6 +7,7 @@ import AddStudent from "./pages/AddStudent";
 import AddTeacher from "./pages/AddTeacher";
 import StudentList from "./pages/StudentList";
 import TeacherList from "./pages/TeacherList";
+import StaffList from "./pages/StaffList";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/addteacher" element={<AddTeacher />} />
             <Route path="/studentlist" element={<StudentList />} />
             <Route path="/teacherlist" element={<TeacherList />} />
+            <Route path="/stafflist" element={<StaffList />} />
           </Route>
         </Routes>
       </section>
