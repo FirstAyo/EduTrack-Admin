@@ -1,122 +1,112 @@
 [
   {
     "id": "ARP-001",
-    "name": "Marcia Baker",
+    "profile": { "name": "Marcia Baker", "avatar": "/avatars/male1.svg" },
     "email": "marcia@example.com",
     "contact": "(929) 558-6655",
     "gender": "Boy",
     "class": 10,
     "section": "A",
     "age": 15,
-    "address": "725 Southern Street, Garden City",
-    "avatar": "/avatars/student1.jpg"
+    "address": "725 Southern Street, Garden City"
   },
   {
     "id": "ARP-002",
-    "name": "Carolyn Barnes",
+    "profile": { "name": "Carolyn Barnes", "avatar": "/avatars/female1.png" },
     "email": "barnes@example.com",
     "contact": "(555) 332-5598",
     "gender": "Girl",
     "class": 10,
     "section": "A",
     "age": 16,
-    "address": "27 Rocket Drive, Eagan, MN 64",
-    "avatar": "/avatars/student2.jpg"
+    "address": "27 Rocket Drive, Eagan, MN 64"
   },
   {
     "id": "ARP-003",
-    "name": "Donna Miller",
+    "profile": { "name": "Donna Millerr", "avatar": "/avatars/male2.svg" },
     "email": "donna@example.com",
     "contact": "(222) 989-7728",
     "gender": "Boy",
     "class": 10,
     "section": "B",
     "age": 15,
-    "address": "95 Rosewood Lane, New York, NY 10",
-    "avatar": "/avatars/student3.jpg"
+    "address": "95 Rosewood Lane, New York, NY 10"
   },
   {
     "id": "ARP-004",
-    "name": "Barbara Cross",
+    "profile": { "name": "Barbara Cross", "avatar": "/avatars/female2.png" },
     "email": "cross@example.com",
     "contact": "(455) 775-4499",
     "gender": "Girl",
     "class": 10,
     "section": "C",
     "age": 14,
-    "address": "64 Hillview Street, Columbia, SC 37",
-    "avatar": "/avatars/student4.jpg"
+    "address": "64 Hillview Street, Columbia, SC 37"
   },
   {
     "id": "ARP-005",
-    "name": "Rebecca Block",
+    "profile": { "name": "Rebecca Block", "avatar": "/avatars/male3.svg" },
     "email": "block@example.com",
     "contact": "(332) 6684-9807",
     "gender": "Boy",
     "class": 10,
     "section": "B",
     "age": 15,
-    "address": "94 Aspen Court, Hyde Park, MA 84",
-    "avatar": "/avatars/student5.jpg"
+    "address": "94 Aspen Court, Hyde Park, MA 84"
   },
   {
     "id": "ARP-006",
-    "name": "Fern Green",
+    "profile": { "name": "Fern Green", "avatar": "/avatars/female2.png" },
     "email": "ferne@example.com",
     "contact": "(929) 587-3696",
     "gender": "Girl",
     "class": 10,
     "section": "A",
     "age": 13,
-    "address": "95 Southern Avenue, Nevinville, LD 66",
-    "avatar": "/avatars/student6.jpg"
+    "address": "95 Southern Avenue, Nevinville, LD 66"
   },
   {
     "id": "ARP-007",
-    "name": "Genevieve Varela",
+    "profile": { "name": "Genevieve Varela", "avatar": "/avatars/male1.svg" },
     "email": "varela@example.com",
     "contact": "(555) 951-1599",
     "gender": "Boy",
     "class": 10,
     "section": "A",
     "age": 15,
-    "address": "83 Duncan Avenue, New York, NY 75",
-    "avatar": "/avatars/student7.jpg"
+    "address": "83 Duncan Avenue, New York, NY 75"
   },
   {
     "id": "ARP-008",
-    "name": "Liam Carter",
+    "profile": { "name": "Liam Carter", "avatar": "/avatars/male2.svg" },
     "email": "liam@example.com",
     "contact": "(718) 223-9044",
     "gender": "Boy",
     "class": 9,
     "section": "B",
     "age": 14,
-    "address": "12 Maple Street, Austin, TX 78",
-    "avatar": "/avatars/student8.jpg"
+    "address": "12 Maple Street, Austin, TX 78"
   },
   {
     "id": "ARP-009",
-    "name": "Sophia Turner",
+    "profile": { "name": "Sophia Turner", "avatar": "/avatars/female1.png" },
     "email": "sophia@example.com",
     "contact": "(646) 334-6678",
     "gender": "Girl",
     "class": 11,
     "section": "C",
     "age": 16,
-    "address": "220 Sunset Blvd, Los Angeles, CA 90",
-    "avatar": "/avatars/student9.jpg"
+    "address": "220 Sunset Blvd, Los Angeles, CA 90"
   },
   {
     "id": "ARP-010",
-    "name": "Ethan Walker",
+    "profile": { "name": "Ethan Walker", "avatar": "/avatars/male2.svg" },
     "email": "ethan@example.com",
     "contact": "(917) 778-9901",
     "gender": "Boy",
     "class": 12,
     "section": "A",
     "age": 17,
-    "address": "77 Pine Avenue, Seattle, WA 45",
-    "avatar": "/avatars/student10.jpg"
+    "address": "77 Pine Avenue, Seattle, WA 45"
   }
 ]

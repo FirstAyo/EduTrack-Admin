@@ -4,6 +4,7 @@ import React from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
 import Tables from "../components/sections/Tables";
+import studentList from "../data/students.json";
 
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
@@ -12,6 +13,7 @@ const navMenus = [
 ];
 
 export default function StudentList() {
+  console.log(studentList[0].profile.name);
   return (
     <div>
       {/* internal nav menu or breadcrumb */}
@@ -28,7 +30,7 @@ export default function StudentList() {
         </div>
       </div>
 
-      <Tables />
+      <Tables studentLists={studentList} />
     </div>
   );
 }
