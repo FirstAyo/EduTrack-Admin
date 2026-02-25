@@ -12,7 +12,7 @@ export default function MainLayout() {
         </div>
         <div className="flex-1 mx-5">
           <NavBar />
-          <main className="bg-green-400">
+          <main className="">
             <Outlet />
           </main>
         </div>
