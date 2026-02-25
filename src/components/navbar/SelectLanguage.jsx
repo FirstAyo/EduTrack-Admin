@@ -17,7 +17,7 @@ const flags = [
 
 export default function SelectLanguage() {
   return (
-    <div className="absolute bg-white text-gray-600 font-semibold rounded-md  border border-slate-300 top-26 right-75">
+    <div className="absolute bg-white text-gray-600 font-semibold rounded-md  border border-slate-300 top-23 right-75">
       <h2 className="pl-6 pr-16 py-4">Choose Language</h2>
 
       <div className="flex flex-col">

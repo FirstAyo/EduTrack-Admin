@@ -19,7 +19,7 @@ const profileMenu = [
 
 export default function UseProfile() {
   return (
-    <div className="absolute bg-white right-7 w-60 rounded-md border border-slate-300 top-26">
+    <div className="absolute bg-white right-7 w-60 rounded-md border border-slate-300 top-23">
       <div className="flex px-5 py-5 gap-3 items-center">
         <img src={userProfile.image} alt="user icon" className="h-10 w-10" />
         <div className="flex flex-col">
