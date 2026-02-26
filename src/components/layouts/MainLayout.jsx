@@ -4,6 +4,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import NavBar from "./NavBar";
 import SidebarMenu from "./SidebarMenu";
+import Footer from "./Footer";
 
 export default function MainLayout() {
   return (
@@ -20,6 +21,8 @@ export default function MainLayout() {
         <main className="min-w-0">
           <Outlet />
         </main>
+
+        <Footer />
       </div>
     </section>
   );
