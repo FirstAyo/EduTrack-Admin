@@ -2,6 +2,8 @@
 
 import React from "react";
 import Input from "../ui/Input";
+import arrowLeftIcon from "../../assets/icons/arrow-left.svg";
+import arrowRightIcon from "../../assets/icons/arrow-right.svg";
 
 export default function Tables({ data = [], columns = [] }) {
   return (
@@ -67,13 +69,36 @@ export default function Tables({ data = [], columns = [] }) {
         </div>
 
         {/* bottom of table pagination */}
-        <div>
+        <div className="flex items-center justify-between px-6 mt-5 py-2">
           <p>
             Showing <span>1</span> to <span>10</span> of <span>150</span>{" "}
             entries
           </p>
 
-          
+          <div className="flex items-center gap-2">
+            <button className="cursor-pointer border py-1 px-2 border-slate-400 rounded-sm">
+              <img
+                src={arrowLeftIcon}
+                alt="arrow left icon"
+                className="h-6 w-6"
+              />
+            </button>
+            {[1, 2, 3].map((num, idx) => (
+              <button
+                key={idx}
+                className="cursor-pointer border py-1 px-4 border-slate-400 rounded-sm hover:bg-blue-600 hover:text-white"
+              >
+                {num}
+              </button>
+            ))}
+            <button className="cursor-pointer border py-1 px-2 border-slate-400 rounded-sm">
+              <img
+                src={arrowRightIcon}
+                alt="arrow right icon"
+                className="h-6 w-6"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </div>
