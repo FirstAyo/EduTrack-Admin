@@ -10,7 +10,7 @@ import deleteIcon from "../assets/icons/delete.svg";
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
   { name: "School", image: dotIcon },
-  { name: "Teacher List", image: dotIcon },
+  { name: "Staff List", image: dotIcon },
 ];
 
 export default function StaffList() {

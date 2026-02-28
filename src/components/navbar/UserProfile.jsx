@@ -3,10 +3,11 @@ import userIcon from "../../assets/icons/user.svg";
 import settingsIcon from "../../assets/icons/settings.svg";
 import exclamationIcon from "../../assets/icons/exclamation.svg";
 import logoutIcon from "../../assets/icons/logout.svg";
+import userAvatar from "../../../public/avatars/male3.svg";
 
 const userProfile = {
   name: "Mateo Luca",
-  image: userIcon,
+  image: userAvatar,
   role: "Admin",
 };
 
