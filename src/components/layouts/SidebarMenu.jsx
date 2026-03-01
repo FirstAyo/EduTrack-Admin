@@ -2,31 +2,38 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
+import gradIcon from "../../assets/icons/graduation.svg";
+import dotIcon from "../../assets/icons/dot.svg";
 
 const navMenus = [
-  { name: "Dashboard", url: "/" },
-  { name: "Student List", url: "/studentlist" },
-  { name: "Add Student", url: "/addstudent" },
-  { name: "Teacher List", url: "/teacherlist" },
-  { name: "Add Teacher", url: "/addteacher" },
-  { name: "Staff List", url: "/stafflist" },
-  { name: "Add Staff", url: "/addstaff" },
-  { name: "Class", url: "#" },
+  { name: "Dashboard", url: "/", image: gradIcon },
+  { name: "Student List", url: "/studentlist", image: dotIcon },
+  { name: "Add Student", url: "/addstudent", image: dotIcon },
+  { name: "Teacher List", url: "/teacherlist", image: dotIcon },
+  { name: "Add Teacher", url: "/addteacher", image: dotIcon },
+  { name: "Staff List", url: "/stafflist", image: dotIcon },
+  { name: "Add Staff", url: "/addstaff", image: dotIcon },
+  { name: "Class", url: "#", image: dotIcon },
 ];
 
 export default function SidebarMenu() {
   return (
     <div className="w-64 h-full bg-white shadow-md p-4">
       <h2 className="text-xl font-bold mb-4">EduTrack</h2>
-      <ul className="space-y-2 flex flex-col">
+      <ul className="">
         {navMenus.map((menu, idx) => (
-          <NavLink
-            key={idx}
-            to={menu.url}
-            className="p-2 hover:bg-gray-100 rounded cursor-pointer"
-          >
-            {menu.name}
-          </NavLink>
+          <div key={idx} className="py-1">
+            <li className="flex items-center gap-2 hover:bg-gray-100 p-2">
+              <img
+                src={menu.image}
+                alt={menu.name}
+                className="h-6 w-6 object-cover"
+              />
+              <NavLink to={menu.url} className="rounded cursor-pointer">
+                {menu.name}
+              </NavLink>
+            </li>
+          </div>
         ))}
       </ul>
     </div>

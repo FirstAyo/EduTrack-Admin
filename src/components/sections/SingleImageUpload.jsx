@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import imageIcon from "../../assets/icons/image.svg";
 
 /**
  * SingleImageUpload (Reusable)
@@ -51,7 +52,7 @@ export default function SingleImageUpload({
       // clear current selection if invalid
       setFile(null);
       setError(
-        "Invalid file format. Please upload an image (JPG, PNG, WEBP, GIF, etc.)."
+        "Invalid file format. Please upload an image (JPG, PNG, WEBP, GIF, etc.).",
       );
       return;
     }
@@ -137,32 +138,11 @@ export default function SingleImageUpload({
             <div className="flex flex-col items-center gap-3">
               <div className="h-10 w-10 rounded-md bg-blue-50 flex items-center justify-center">
                 {/* simple image icon */}
-                <svg
-                  className="h-5 w-5 text-blue-600"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Z"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                  />
-                  <path
-                    d="M8 14l2.2-2.2a1 1 0 0 1 1.4 0L16 16"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M14.5 13.5l.9-.9a1 1 0 0 1 1.4 0L20 15.8"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                <img
+                  src={imageIcon}
+                  alt="image icon"
+                  className="h-7 w-7 object-cover"
+                />
               </div>
 
               <p className="text-sm text-slate-500">

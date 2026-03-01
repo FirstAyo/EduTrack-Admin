@@ -9,7 +9,7 @@ import SingleImageUpload from "../components/sections/SingleImageUpload";
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
   { name: "School", image: dotIcon },
-  { name: "Teacher List", image: dotIcon },
+  { name: "Add Teacher", image: dotIcon },
 ];
 
 const teacherFields = [
@@ -74,12 +74,16 @@ export default function AddTeacher() {
   return (
     <div>
       <div className="flex justify-between">
-        <h1>Teacher List</h1>
+        <h1>{navMenus[2].name}</h1>
 
         <div className="flex items-center text-sm text-slate-600">
           {navMenus.map((navMenu, idx) => (
             <div key={idx} className="flex items-center gap-1">
-              <img src={navMenu.image} alt="social icon" className="h-5 w-5" />
+              <img
+                src={navMenu.image}
+                alt="social icon"
+                className="h-4 w-4 object-cover"
+              />
               <p>{navMenu.name}</p>
             </div>
           ))}
