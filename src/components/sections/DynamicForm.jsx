@@ -78,7 +78,7 @@ export default function DynamicForm({
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-8 bg-white rounded-xl shadow-sm border border-gray-50 my-5">
+    <div className="p-8 bg-white rounded-xl shadow-sm border border-gray-50 my-5">
       <h2 className="text-xl font-bold text-slate-800 mb-8">{title}</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">

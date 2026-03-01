@@ -1,9 +1,10 @@
 // src/pages/AddTeacher.jsx
 
-import React from "react";
+import React, { useState } from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
 import DynamicForm from "../components/sections/DynamicForm";
+import SingleImageUpload from "../components/sections/SingleImageUpload";
 
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
@@ -69,6 +70,7 @@ const teacherFields = [
 ];
 
 export default function AddTeacher() {
+  const [teacherImage, setTeacherImage] = useState();
   return (
     <div>
       <div className="flex justify-between">
@@ -84,13 +86,24 @@ export default function AddTeacher() {
         </div>
       </div>
 
-      <DynamicForm
-        title="Teacher Information"
-        fields={teacherFields}
-        submitText="+ Add Teacher"
-        onSubmit={(data) => console.log(data)}
-        onCancel={() => alert("Cancelled")}
-      />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <SingleImageUpload
+          title="Teacher Image"
+          value={teacherImage}
+          onChange={setTeacherImage}
+          // optional: initialPreviewUrl="https://...." (if editing an existing teacher)
+        />
+
+        <div className="col-span-2">
+          <DynamicForm
+            title="Teacher Information"
+            fields={teacherFields}
+            submitText="+ Add Teacher"
+            onSubmit={(data) => console.log(data)}
+            onCancel={() => alert("Cancelled")}
+          />
+        </div>
+      </div>
     </div>
   );
 }
