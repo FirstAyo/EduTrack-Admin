@@ -10,6 +10,7 @@ import StudentList from "./pages/StudentList";
 import TeacherList from "./pages/TeacherList";
 import StaffList from "./pages/StaffList";
 import CourseList from "./pages/CourseList";
+import AddCourse from "./pages/AddCourse";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/teacherlist" element={<TeacherList />} />
             <Route path="/stafflist" element={<StaffList />} />
             <Route path="/courselist" element={<CourseList />} />
+            <Route path="/addcourse" element={<AddCourse />} />
           </Route>
         </Routes>
       </section>
