@@ -44,7 +44,7 @@ const SelectField = ({
         name={name}
         value={value}
         onChange={onChange}
-        className="w-full px-4 pt-6 pb-2 rounded-md border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all appearance-none bg-white text-slate-600"
+        className="w-full px-4 pt-4 pb-2 rounded-md border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all appearance-none bg-white text-slate-600"
       >
         <option value="" disabled>
           {placeholder}

@@ -12,6 +12,7 @@ import StaffList from "./pages/StaffList";
 import CourseList from "./pages/CourseList";
 import AddCourse from "./pages/AddCourse";
 import FeesCollection from "./pages/FeesCollection";
+import AddFees from "./pages/AddFees";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/courselist" element={<CourseList />} />
             <Route path="/addcourse" element={<AddCourse />} />
             <Route path="/feescollection" element={<FeesCollection />} />
+            <Route path="/addfees" element={<AddFees />} />
           </Route>
         </Routes>
       </section>
