@@ -11,6 +11,7 @@ import TeacherList from "./pages/TeacherList";
 import StaffList from "./pages/StaffList";
 import CourseList from "./pages/CourseList";
 import AddCourse from "./pages/AddCourse";
+import FeesCollection from "./pages/FeesCollection";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/stafflist" element={<StaffList />} />
             <Route path="/courselist" element={<CourseList />} />
             <Route path="/addcourse" element={<AddCourse />} />
+            <Route path="/feescollection" element={<FeesCollection />} />
           </Route>
         </Routes>
       </section>

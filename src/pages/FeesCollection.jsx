@@ -1,10 +1,8 @@
-// src/pages/TeacherList.jsx
-
 import React from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
 import Tables from "../components/sections/Tables";
-import teacherList from "../data/teachers.json";
+import feesList from "../data/fees-collection.json";
 import eyeIcon from "../assets/icons/eye.svg";
 import penIcon from "../assets/icons/pen.svg";
 import deleteIcon from "../assets/icons/delete.svg";
@@ -12,17 +10,17 @@ import deleteIcon from "../assets/icons/delete.svg";
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
   { name: "School", image: dotIcon },
-  { name: "Teacher List", image: dotIcon },
+  { name: "Fees Collection", image: dotIcon },
 ];
 
-export default function TeacherList() {
+export default function FeesCollection() {
   const columns = [
     {
-      header: "Teacher ID",
+      header: "ID",
       render: (row) => <span className="text-slate-500">#{row.id}</span>,
     },
     {
-      header: "Teachers Name",
+      header: "Student Name",
       render: (row) => (
         <div className="flex items-center gap-3">
           <img
@@ -31,46 +29,54 @@ export default function TeacherList() {
             alt=""
           />
           <span className="font-semibold text-slate-800">
-            {row.profile.name}
+            {row.profile.studentName}
           </span>
         </div>
       ),
     },
     {
-      header: "Email",
+      header: "Fee Type",
       render: (row) => (
-        <span className="text-blue-600 font-medium">{row.email}</span>
+        <span className="text-slate-600 font-medium">{row.feeType}</span>
       ),
     },
     {
-      header: "Contact",
-      render: (row) => <span className="text-slate-600">{row.contact}</span>,
+      header: "Class",
+      render: (row) => <span className="text-slate-600">{row.class}</span>,
     },
     {
-      header: "Gender",
-      render: (row) => <span className="text-slate-600">{row.gender}</span>,
+      header: "Amount($)",
+      render: (row) => <span className="text-slate-600">${row.amount}</span>,
     },
     {
-      header: "Subject",
-      render: (row) => <span className="text-slate-600">{row.subject}</span>,
+      header: "Due Date",
+      render: (row) => <span className="text-slate-600">{row.dueDate}</span>,
     },
     {
-      header: "Qualification",
+      header: "Frequency",
+      render: (row) => <span className="text-slate-600">{row.frequency}</span>,
+    },
+    {
+      header: "Payment Method",
       render: (row) => (
-        <span className="text-slate-600">{row.qualification}</span>
+        <span className="text-slate-600">{row.paymentMethod}</span>
       ),
     },
     {
-      header: "Experience",
-      render: (row) => (
-        <span className="text-slate-600">{row.experience} Yrs</span>
-      ),
-    },
-    {
-      header: "Address",
+      header: "Late Fee",
       render: (row) => (
         <div className="max-w-[200px] text-slate-500 line-clamp-2">
-          {row.address}
+          {row.lateFee}
+        </div>
+      ),
+    },
+    {
+      header: "Status",
+      render: (row) => (
+        <div
+          className={`max-w-[200px] text-slate-500 line-clamp-2 py-1 text-center rounded-md ${row.status === "Paid" ? "bg-green-200 text-green-600 border border-green-900" : "bg-yellow-200 text-yellow-600 border border-yellow-900"}`}
+        >
+          {row.status}
         </div>
       ),
     },
@@ -89,7 +95,6 @@ export default function TeacherList() {
       ),
     },
   ];
-
   return (
     <div>
       <div className="flex justify-between">
@@ -104,7 +109,7 @@ export default function TeacherList() {
           ))}
         </div>
       </div>
-      <Tables data={teacherList} columns={columns} />
+      <Tables data={feesList} columns={columns} />
     </div>
   );
 }

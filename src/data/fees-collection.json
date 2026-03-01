@@ -1,0 +1,162 @@
+[
+  {
+    "id": "#001",
+    "profile": {
+      "studentName": "Marcia Baker",
+      "avatar": "/avatars/male3.svg"
+    },
+    "feeType": "Tuition Fee",
+    "class": "6-12",
+    "amount": 3000,
+    "currency": "USD",
+    "dueDate": "2025-10-15",
+    "frequency": "Annually",
+    "paymentMethod": "Bank Transfer",
+    "lateFee": 50,
+    "status": "Paid"
+  },
+  {
+    "id": "#002",
+    "profile": {
+      "studentName": "Carolyn Barnes",
+      "avatar": "/avatars/female2.png"
+    },
+    "feeType": "Sports Fee",
+    "class": "9-12",
+    "amount": 200,
+    "currency": "USD",
+    "dueDate": "2025-10-07",
+    "frequency": "Semester",
+    "paymentMethod": "Cash, Check",
+    "lateFee": 10,
+    "status": "Pending"
+  },
+  {
+    "id": "#003",
+    "profile": {
+      "studentName": "Donna Miller",
+      "avatar": "/avatars/male2.svg"
+    },
+    "feeType": "Laboratory Fee",
+    "class": "9-12",
+    "amount": 150,
+    "currency": "USD",
+    "dueDate": "2025-11-10",
+    "frequency": "Annually",
+    "paymentMethod": "Credit Card, Cash",
+    "lateFee": 15,
+    "status": "Paid"
+  },
+  {
+    "id": "#004",
+    "profile": {
+      "studentName": "Barbara Cross",
+      "avatar": "/avatars/male3.svg"
+    },
+    "feeType": "Arts Fee",
+    "class": "6-12",
+    "amount": 120,
+    "currency": "USD",
+    "dueDate": "2025-01-20",
+    "frequency": "Semester",
+    "paymentMethod": "Bank Transfer",
+    "lateFee": 10,
+    "status": "Pending"
+  },
+  {
+    "id": "#005",
+    "profile": {
+      "studentName": "Rebecca Block",
+      "avatar": "/avatars/female1.png"
+    },
+    "feeType": "Bus Transportation",
+    "class": "6-12",
+    "amount": 500,
+    "currency": "USD",
+    "dueDate": "2025-10-22",
+    "frequency": "Annually",
+    "paymentMethod": "Credit Card, Cash",
+    "lateFee": 20,
+    "status": "Paid"
+  },
+  {
+    "id": "#006",
+    "profile": {
+      "studentName": "Fern Green",
+      "avatar": "/avatars/male2.svg"
+    },
+    "feeType": "Examination Fee",
+    "class": "6-12",
+    "amount": 100,
+    "currency": "USD",
+    "dueDate": "2025-11-01",
+    "frequency": "Semester",
+    "paymentMethod": "Credit Card, Cash",
+    "lateFee": 10,
+    "status": "Pending"
+  },
+  {
+    "id": "#007",
+    "profile": {
+      "studentName": "Genevieve Varela",
+      "avatar": "/avatars/female2.png"
+    },
+    "feeType": "Library Fee",
+    "class": "9-12",
+    "amount": 50,
+    "currency": "USD",
+    "dueDate": "2025-10-10",
+    "frequency": "Annually",
+    "paymentMethod": "Credit Card, Cash",
+    "lateFee": 5,
+    "status": "Paid"
+  },
+  {
+    "id": "#008",
+    "profile": {
+      "studentName": "Roy Walker",
+      "avatar": "/avatars/female1.png"
+    },
+    "feeType": "Lab Fee",
+    "class": "6-12",
+    "amount": 100,
+    "currency": "USD",
+    "dueDate": "2025-12-02",
+    "frequency": "Annually",
+    "paymentMethod": "Credit Card, Cash",
+    "lateFee": 10,
+    "status": "Paid"
+  },
+  {
+    "id": "#009",
+    "profile": {
+      "studentName": "Carol Crawford",
+      "avatar": "/avatars/female2.png"
+    },
+    "feeType": "Graduation Fee",
+    "class": "9-12",
+    "amount": 250,
+    "currency": "USD",
+    "dueDate": "2025-11-03",
+    "frequency": "Annually",
+    "paymentMethod": "Bank Transfer",
+    "lateFee": 15,
+    "status": "Pending"
+  },
+  {
+    "id": "#010",
+    "profile": {
+      "studentName": "Wade Bash",
+      "avatar": "/avatars/male1.svg"
+    },
+    "feeType": "Health Fee",
+    "class": "6-12",
+    "amount": 300,
+    "currency": "USD",
+    "dueDate": "2025-10-15",
+    "frequency": "Annually",
+    "paymentMethod": "Bank Transfer",
+    "lateFee": 20,
+    "status": "Pending"
+  }
+]
