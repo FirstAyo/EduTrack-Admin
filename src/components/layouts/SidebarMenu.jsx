@@ -13,6 +13,7 @@ const navMenus = [
   { name: "Add Teacher", url: "/addteacher", image: dotIcon },
   { name: "Staff List", url: "/stafflist", image: dotIcon },
   { name: "Add Staff", url: "/addstaff", image: dotIcon },
+  { name: "All Courses", url: "/courselist", image: dotIcon },
   { name: "Class", url: "#", image: dotIcon },
 ];
 

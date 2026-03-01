@@ -1,0 +1,122 @@
+[
+  {
+    "id": "CO01",
+    "courseId": "CO01",
+    "courseName": "Mathematics Basics",
+    "classLevel": "6",
+    "subjectArea": "Mathematics",
+    "instructor": "Dixie Woods",
+    "duration": "1 year",
+    "credits": 4,
+    "schedule": "Mon, Fri - 9 AM",
+    "room": "Room 101"
+  },
+  {
+    "id": "CO02",
+    "courseId": "CO02",
+    "courseName": "English Language",
+    "classLevel": "7",
+    "subjectArea": "English",
+    "instructor": "Michael Hicks",
+    "duration": "1 year",
+    "credits": 5,
+    "schedule": "Tue, Thu - 10 AM",
+    "room": "Room 102"
+  },
+  {
+    "id": "CO03",
+    "courseId": "CO03",
+    "courseName": "General Science",
+    "classLevel": "6-8",
+    "subjectArea": "Science",
+    "instructor": "Cesar Taylor",
+    "duration": "1 year",
+    "credits": 5,
+    "schedule": "Mon, Fri - 11 AM",
+    "room": "Room 202"
+  },
+  {
+    "id": "CO04",
+    "courseId": "CO04",
+    "courseName": "World History",
+    "classLevel": "9",
+    "subjectArea": "Social Studies",
+    "instructor": "Mitchell Gowen",
+    "duration": "1 year",
+    "credits": 5,
+    "schedule": "Tue, Thu - 12 PM",
+    "room": "Room 303"
+  },
+  {
+    "id": "CO05",
+    "courseId": "CO05",
+    "courseName": "Art & Design",
+    "classLevel": "7-9",
+    "subjectArea": "Arts",
+    "instructor": "William Bankston",
+    "duration": "1 semester",
+    "credits": 2,
+    "schedule": "Mon, Wed - 1 PM",
+    "room": "Art Room"
+  },
+  {
+    "id": "CO06",
+    "courseId": "CO06",
+    "courseName": "Physical Education",
+    "classLevel": "6-12",
+    "subjectArea": "Health Ed",
+    "instructor": "Adam Baker",
+    "duration": "1 semester",
+    "credits": 2,
+    "schedule": "Mon, Fri - 2 PM",
+    "room": "Gymnasium"
+  },
+  {
+    "id": "CO07",
+    "courseId": "CO07",
+    "courseName": "Advanced Chemistry",
+    "classLevel": "11-12",
+    "subjectArea": "Science",
+    "instructor": "Karen Eliason",
+    "duration": "1 year",
+    "credits": 6,
+    "schedule": "Mon, Wed - 10 AM",
+    "room": "Lab 305"
+  },
+  {
+    "id": "CO08",
+    "courseId": "CO08",
+    "courseName": "Basic Computer",
+    "classLevel": "10-12",
+    "subjectArea": "IT",
+    "instructor": "Richard Diamon",
+    "duration": "1 year",
+    "credits": 5,
+    "schedule": "Tue, Thu - 3 PM",
+    "room": "Room 404"
+  },
+  {
+    "id": "CO09",
+    "courseId": "CO09",
+    "courseName": "Music",
+    "classLevel": "6-8",
+    "subjectArea": "Arts",
+    "instructor": "Sharron Tate",
+    "duration": "1 semester",
+    "credits": 2,
+    "schedule": "Wed, Fri - 11 AM",
+    "room": "Music Room"
+  },
+  {
+    "id": "CO10",
+    "courseId": "CO10",
+    "courseName": "Business Studies",
+    "classLevel": "9-12",
+    "subjectArea": "Business",
+    "instructor": "Beverly Applegate",
+    "duration": "1 year",
+    "credits": 5,
+    "schedule": "Mon, Thu - 2 PM",
+    "room": "Room 203"
+  }
+]

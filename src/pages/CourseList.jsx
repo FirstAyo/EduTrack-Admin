@@ -1,10 +1,10 @@
-// src/pages/TeacherList.jsx
+// src/pages/CourseList.jsx
 
 import React from "react";
 import houseIcon from "../assets/icons/house.svg";
 import dotIcon from "../assets/icons/dot.svg";
 import Tables from "../components/sections/Tables";
-import teacherList from "../data/teachers.json";
+import courseList from "../data/courses.json";
 import eyeIcon from "../assets/icons/eye.svg";
 import penIcon from "../assets/icons/pen.svg";
 import deleteIcon from "../assets/icons/delete.svg";
@@ -12,65 +12,54 @@ import deleteIcon from "../assets/icons/delete.svg";
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
   { name: "School", image: dotIcon },
-  { name: "Teacher List", image: dotIcon },
+  { name: "Course List", image: dotIcon },
 ];
 
-export default function TeacherList() {
+export default function CourseList() {
   const columns = [
     {
-      header: "Teacher ID",
-      render: (row) => <span className="text-slate-500">#{row.id}</span>,
+      header: "Course ID",
+      render: (row) => <span className="text-slate-500">#{row.courseId}</span>,
     },
     {
-      header: "Teachers Name",
+      header: "Course Name",
       render: (row) => (
-        <div className="flex items-center gap-3">
-          <img
-            src={row.profile.avatar}
-            className="h-9 w-9 rounded-full object-cover"
-            alt=""
-          />
-          <span className="font-semibold text-slate-800">
-            {row.profile.name}
-          </span>
-        </div>
+        <span className="text-slate-600 font-medium">{row.courseName}</span>
       ),
     },
     {
-      header: "Email",
+      header: "Class Level",
       render: (row) => (
-        <span className="text-blue-600 font-medium">{row.email}</span>
+        <span className="text-slate-600 font-medium">{row.classLevel}</span>
       ),
     },
     {
-      header: "Contact",
-      render: (row) => <span className="text-slate-600">{row.contact}</span>,
-    },
-    {
-      header: "Gender",
-      render: (row) => <span className="text-slate-600">{row.gender}</span>,
-    },
-    {
-      header: "Subject",
-      render: (row) => <span className="text-slate-600">{row.subject}</span>,
-    },
-    {
-      header: "Qualification",
+      header: "Subject Area",
       render: (row) => (
-        <span className="text-slate-600">{row.qualification}</span>
+        <span className="text-slate-600">{row.subjectArea}</span>
       ),
     },
     {
-      header: "Experience",
-      render: (row) => (
-        <span className="text-slate-600">{row.experience} Yrs</span>
-      ),
+      header: "Instructor",
+      render: (row) => <span className="text-slate-600">{row.instructor}</span>,
     },
     {
-      header: "Address",
+      header: "Duration",
+      render: (row) => <span className="text-slate-600">{row.duration}</span>,
+    },
+    {
+      header: "Credits",
+      render: (row) => <span className="text-slate-600">{row.credits}</span>,
+    },
+    {
+      header: "Class Schedule",
+      render: (row) => <span className="text-slate-600">{row.schedule}</span>,
+    },
+    {
+      header: "Room Number",
       render: (row) => (
         <div className="max-w-[200px] text-slate-500 line-clamp-2">
-          {row.address}
+          {row.room}
         </div>
       ),
     },
@@ -104,7 +93,7 @@ export default function TeacherList() {
           ))}
         </div>
       </div>
-      <Tables data={teacherList} columns={columns} />
+      <Tables data={courseList} columns={columns} />
     </div>
   );
 }

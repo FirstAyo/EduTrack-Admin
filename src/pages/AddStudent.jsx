@@ -12,7 +12,7 @@ const navMenus = [
   { name: "Add Student", image: dotIcon },
 ];
 
-const teacherFields = [
+const studentFields = [
   { label: "First Name", name: "firstName", placeholder: "Enter first name" },
   { label: "Last Name", name: "lastName", placeholder: "Enter last name" },
   { label: "Student ID", name: "studentId", placeholder: "Enter ID" },
@@ -79,7 +79,7 @@ const teacherFields = [
 ];
 
 export default function AddStudent() {
-  const [teacherImage, setTeacherImage] = useState();
+  const [studentImage, setStudentImage] = useState();
   return (
     <div>
       <div className="flex justify-between">
@@ -102,15 +102,15 @@ export default function AddStudent() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <SingleImageUpload
           title="Student Image"
-          value={teacherImage}
-          onChange={setTeacherImage}
+          value={studentImage}
+          onChange={setStudentImage}
           // optional: initialPreviewUrl="https://...." (if editing an existing teacher)
         />
 
         <div className="col-span-2">
           <DynamicForm
             title="Student Information"
-            fields={teacherFields}
+            fields={studentFields}
             submitText="+ Add Student"
             onSubmit={(data) => console.log(data)}
             onCancel={() => alert("Cancelled")}
