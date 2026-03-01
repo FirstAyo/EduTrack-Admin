@@ -5,6 +5,7 @@ import MainLayout from "./components/layouts/MainLayout";
 import Home from "./pages/Home";
 import AddStudent from "./pages/AddStudent";
 import AddTeacher from "./pages/AddTeacher";
+import AddStaff from "./pages/AddStaff";
 import StudentList from "./pages/StudentList";
 import TeacherList from "./pages/TeacherList";
 import StaffList from "./pages/StaffList";
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/addstudent" element={<AddStudent />} />
             <Route path="/addteacher" element={<AddTeacher />} />
+            <Route path="/addstaff" element={<AddStaff />} />
             <Route path="/studentlist" element={<StudentList />} />
             <Route path="/teacherlist" element={<TeacherList />} />
             <Route path="/stafflist" element={<StaffList />} />
