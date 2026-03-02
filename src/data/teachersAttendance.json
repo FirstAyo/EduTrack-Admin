@@ -2,7 +2,7 @@
   {
     "id": "tea-1",
     "name": "Samuel Knight",
-    "avatar": "/images/avatars/avatar-11.png",
+    "avatar": "/avatars/male3.svg",
     "employmentType": "Full Time",
     "attendance": [
       "present",
@@ -40,7 +40,7 @@
   {
     "id": "tea-2",
     "name": "Nina Howard",
-    "avatar": "/images/avatars/avatar-12.png",
+    "avatar": "/avatars/female1.png",
     "employmentType": "Remote",
     "attendance": [
       "present",
@@ -78,7 +78,7 @@
   {
     "id": "tea-3",
     "name": "Victor Stone",
-    "avatar": "/images/avatars/avatar-13.png",
+    "avatar": "/avatars/male2.svg",
     "employmentType": "Part Time",
     "attendance": [
       "present",
@@ -116,7 +116,7 @@
   {
     "id": "tea-4",
     "name": "Ivy Peterson",
-    "avatar": "/images/avatars/avatar-14.png",
+    "avatar": "/avatars/male1.svg",
     "employmentType": "Internship",
     "attendance": [
       "present",
@@ -154,7 +154,7 @@
   {
     "id": "tea-5",
     "name": "Owen Brooks",
-    "avatar": "/images/avatars/avatar-15.png",
+    "avatar": "/avatars/female3.png",
     "employmentType": "Full Time",
     "attendance": [
       "present",

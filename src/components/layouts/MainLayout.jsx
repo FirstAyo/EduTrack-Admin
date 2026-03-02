@@ -14,11 +14,11 @@ export default function MainLayout() {
       </div>
 
       {/* KEY: min-w-0 allows this flex item to shrink instead of pushing page width */}
-      <div className="flex-1 min-w-0 mx-5">
+      <div className="flex-1 min-w-0 mx-5 flex flex-col min-h-screen">
         <NavBar />
 
         {/* optional but helpful: prevents Outlet content from forcing page width */}
-        <main className="min-w-0">
+        <main className="flex-1 min-w-0">
           <Outlet />
         </main>
 

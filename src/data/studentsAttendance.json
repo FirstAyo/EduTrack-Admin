@@ -2,7 +2,7 @@
   {
     "id": "stu-1",
     "name": "Marcia Baker",
-    "avatar": "/images/avatars/avatar-1.png",
+    "avatar": "/avatars/male2.svg",
     "employmentType": "Full Time",
     "attendance": [
       "present",
@@ -40,7 +40,7 @@
   {
     "id": "stu-2",
     "name": "Carolyn Barnes",
-    "avatar": "/images/avatars/avatar-2.png",
+    "avatar": "/avatars/female2.png",
     "employmentType": "Internship",
     "attendance": [
       "present",
@@ -78,7 +78,7 @@
   {
     "id": "stu-3",
     "name": "Donna Miller",
-    "avatar": "/images/avatars/avatar-3.png",
+    "avatar": "/avatars/male3.svg",
     "employmentType": "Part Time",
     "attendance": [
       "present",
@@ -116,7 +116,7 @@
   {
     "id": "stu-4",
     "name": "Barbara Cross",
-    "avatar": "/images/avatars/avatar-4.png",
+    "avatar": "/avatars/female1.png",
     "employmentType": "Remote",
     "attendance": [
       "present",
@@ -154,7 +154,7 @@
   {
     "id": "stu-5",
     "name": "Rebecca Block",
-    "avatar": "/images/avatars/avatar-5.png",
+    "avatar": "/avatars/female3.png",
     "employmentType": "Full Time",
     "attendance": [
       "present",
@@ -192,7 +192,7 @@
   {
     "id": "stu-6",
     "name": "Fern Green",
-    "avatar": "/images/avatars/avatar-6.png",
+    "avatar": "/avatars/male3.svg",
     "employmentType": "Internship",
     "attendance": [
       "absent",
@@ -230,7 +230,7 @@
   {
     "id": "stu-7",
     "name": "Genevieve Varela",
-    "avatar": "/images/avatars/avatar-7.png",
+    "avatar": "/avatars/female2.png",
     "employmentType": "Remote",
     "attendance": [
       "present",
@@ -268,7 +268,7 @@
   {
     "id": "stu-8",
     "name": "Roy Walker",
-    "avatar": "/images/avatars/avatar-8.png",
+    "avatar": "/avatars/male1.svg",
     "employmentType": "Part Time",
     "attendance": [
       "present",
@@ -306,7 +306,7 @@
   {
     "id": "stu-9",
     "name": "Carol Crawford",
-    "avatar": "/images/avatars/avatar-9.png",
+    "avatar": "/avatars/female2.png",
     "employmentType": "Full Time",
     "attendance": [
       "present",
@@ -344,7 +344,7 @@
   {
     "id": "stu-10",
     "name": "Tanya Lopez",
-    "avatar": "/images/avatars/avatar-10.png",
+    "avatar": "/avatars/male2.svg",
     "employmentType": "Internship",
     "attendance": [
       "present",

@@ -33,8 +33,10 @@ export default function AttendanceTable({ rows, iconSrc }) {
                     className="w-9 h-9 rounded-full object-cover"
                   />
                   <div>
-                    <div className="font-medium text-slate-800">{row.name}</div>
-                    <div className="text-xs text-slate-400">
+                    <div className="font-medium text-slate-800 tracking-wider">
+                      {row.name}
+                    </div>
+                    <div className="text-xs text-slate-400 tracking-wider">
                       {row.employmentType}
                     </div>
                   </div>
