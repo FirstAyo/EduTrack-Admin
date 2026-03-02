@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "bookId": "#C001",
+    "bookName": "Computer Fundamental",
+    "author": "Marcia Baker",
+    "class": "6-12",
+    "publication": 1960,
+    "shelfLocation": "A1",
+    "borrowerId": "Library",
+    "description": "An introductory guide to computer systems and digital basics.",
+    "status": "Available"
+  },
+  {
+    "id": 2,
+    "bookId": "#C002",
+    "bookName": "Networking",
+    "author": "Carolyn Barnes",
+    "class": "9-12",
+    "publication": 1949,
+    "shelfLocation": "B5",
+    "borrowerId": "#ARP-001",
+    "description": "A detailed look into networking principles and communication systems.",
+    "status": "Checked"
+  },
+  {
+    "id": 3,
+    "bookId": "#C003",
+    "bookName": "Artificial Intelligence",
+    "author": "Donna Miller",
+    "class": "9-12",
+    "publication": 1925,
+    "shelfLocation": "A3",
+    "borrowerId": "Library",
+    "description": "Exploring machine learning, AI concepts, and intelligent systems.",
+    "status": "Available"
+  },
+  {
+    "id": 4,
+    "bookId": "#C004",
+    "bookName": "Computer Programming",
+    "author": "Barbara Cross",
+    "class": "6-12",
+    "publication": 1951,
+    "shelfLocation": "A7",
+    "borrowerId": "#ARP-003",
+    "description": "A comprehensive introduction to programming logic and coding basics.",
+    "status": "Checked"
+  },
+  {
+    "id": 5,
+    "bookId": "#C005",
+    "bookName": "Advanced Chemistry",
+    "author": "Rebecca Block",
+    "class": "6-12",
+    "publication": 1954,
+    "shelfLocation": "C1",
+    "borrowerId": "Library",
+    "description": "Advanced concepts in organic and inorganic chemistry.",
+    "status": "Available"
+  },
+  {
+    "id": 6,
+    "bookId": "#C006",
+    "bookName": "Mathematics Basics",
+    "author": "Fern Green",
+    "class": "6-12",
+    "publication": 1813,
+    "shelfLocation": "B2",
+    "borrowerId": "#ARP-005",
+    "description": "Foundational mathematics principles for middle and high school.",
+    "status": "Checked"
+  },
+  {
+    "id": 7,
+    "bookId": "#C007",
+    "bookName": "English Language Arts",
+    "author": "Genevieve Varela",
+    "class": "9-12",
+    "publication": 1997,
+    "shelfLocation": "C5",
+    "borrowerId": "Library",
+    "description": "Grammar, composition, and literature studies for advanced students.",
+    "status": "Available"
+  },
+  {
+    "id": 8,
+    "bookId": "#C008",
+    "bookName": "General Science",
+    "author": "Roy Walker",
+    "class": "6-12",
+    "publication": 1937,
+    "shelfLocation": "C3",
+    "borrowerId": "Library",
+    "description": "A broad overview of physical and biological sciences.",
+    "status": "Available"
+  },
+  {
+    "id": 9,
+    "bookId": "#C009",
+    "bookName": "World History",
+    "author": "Tanya Lopez",
+    "class": "9-12",
+    "publication": 2005,
+    "shelfLocation": "D4",
+    "borrowerId": "#ARP-009",
+    "description": "A chronological study of major world civilizations and events.",
+    "status": "Checked"
+  },
+  {
+    "id": 10,
+    "bookId": "#C010",
+    "bookName": "Physics Principles",
+    "author": "Samuel Knight",
+    "class": "9-12",
+    "publication": 2012,
+    "shelfLocation": "E2",
+    "borrowerId": "Library",
+    "description": "Core physics concepts including motion, force, and energy.",
+    "status": "Available"
+  }
+]

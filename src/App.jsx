@@ -14,6 +14,7 @@ import AddCourse from "./pages/AddCourse";
 import FeesCollection from "./pages/FeesCollection";
 import AddFees from "./pages/AddFees";
 import Attendance from "./pages/Attendance";
+import Library from "./pages/Library";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/feescollection" element={<FeesCollection />} />
             <Route path="/addfees" element={<AddFees />} />
             <Route path="/attendance" element={<Attendance />} />
+            <Route path="/library" element={<Library />} />
           </Route>
         </Routes>
       </section>
