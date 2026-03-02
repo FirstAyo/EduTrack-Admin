@@ -18,6 +18,7 @@ const navMenus = [
   { name: "Fees Collection", url: "/feescollection", image: dotIcon },
   { name: "Add Fees", url: "/addfees", image: dotIcon },
   { name: "Class", url: "#", image: dotIcon },
+  { name: "Attendance", url: "/attendance", image: dotIcon },
 ];
 
 export default function SidebarMenu() {

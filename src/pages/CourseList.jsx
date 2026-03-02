@@ -82,7 +82,7 @@ export default function CourseList() {
   return (
     <div>
       <div className="flex justify-between">
-        <h1>{navMenus.name}</h1>
+        <h1>{navMenus[2].name}</h1>
 
         <div className="flex items-center text-sm text-slate-600">
           {navMenus.map((navMenu, idx) => (

@@ -45,7 +45,7 @@ export default function Tables({ data = [], columns = [] }) {
                 {data.map((item, rowIdx) => (
                   <tr
                     key={rowIdx}
-                    className="hover:bg-slate-50 transition border-b border-slate-100"
+                    className="hover:bg-slate-50 transition border-b border-slate-400 border-dotted"
                   >
                     <td className="w-12 px-4 py-5">
                       <input
