@@ -1,14 +1,19 @@
-export default function AttendanceStatusCell({ status, iconSrc }) {
-  // status values expected: "present" | "none" | "absent"
-  const src = iconSrc?.[status];
+import checkIcon from "/images/check.svg";
+import minusIcon from "/images/minus.svg";
 
-  if (!src) return null;
+const ICONS = {
+  present: { checkIcon },
+  none: { minusIcon },
+};
+
+export default function AttendanceStatusCell({ status }) {
+  const icon = ICONS[status];
+
+  if (!icon) return null;
 
   return (
-    <img
-      src={src}
-      alt={status}
-      className="w-4 h-4 inline-block"
-    />
+    <div>
+      <img src={icon} alt={status} className="w-4 h-4 mx-auto" />
+    </div>
   );
 }

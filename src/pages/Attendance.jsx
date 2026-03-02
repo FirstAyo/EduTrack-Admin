@@ -1,5 +1,8 @@
 import { useMemo, useState } from "react";
 
+import houseIcon from "../assets/icons/house.svg";
+import dotIcon from "../assets/icons/dot.svg";
+
 import studentsData from "../data/studentsAttendance.json";
 import teachersData from "../data/teachersAttendance.json";
 import staffsData from "../data/staffsAttendance.json";
@@ -10,6 +13,12 @@ import AttendanceTable from "../components/attendance/AttendanceTable";
 import AddAttendanceModal from "../components/attendance/AddAttendanceModal";
 
 const TABS = ["Students", "Teachers", "Staffs"];
+
+const navMenus = [
+  { name: "Dashboard", image: houseIcon },
+  { name: "School", image: dotIcon },
+  { name: "Teacher List", image: dotIcon },
+];
 
 export default function Attendance() {
   const [activeTab, setActiveTab] = useState("Students");
@@ -65,7 +74,20 @@ export default function Attendance() {
 
   return (
     <div className="w-full">
-      <div className="bg-white border border-slate-200 rounded-xl">
+      <div className="flex justify-between">
+        <h1>{navMenus[2].name}</h1>
+
+        <div className="flex items-center text-sm text-slate-600">
+          {navMenus.map((navMenu, idx) => (
+            <div key={idx} className="flex items-center gap-1">
+              <img src={navMenu.image} alt="social icon" className="h-5 w-5" />
+              <p>{navMenu.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="bg-white border border-slate-200 rounded-xl my-5">
         <div className="p-4">
           <AttendanceTabs
             tabs={TABS}

@@ -1,4 +1,5 @@
 import AttendanceStatusCell from "./AttendanceStatusCell";
+import userIcon from "/avatars/female1.png";
 
 const days = Array.from({ length: 30 }, (_, i) =>
   String(i + 1).padStart(2, "0"),

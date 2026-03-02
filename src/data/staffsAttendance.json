@@ -2,7 +2,7 @@
   {
     "id": "stf-1",
     "name": "Aisha Morgan",
-    "avatar": "/images/avatars/avatar-16.png",
+    "avatar": "/avatars/female2.png",
     "employmentType": "Full Time",
     "attendance": [
       "present",
@@ -40,7 +40,7 @@
   {
     "id": "stf-2",
     "name": "Kelvin James",
-    "avatar": "/images/avatars/avatar-17.png",
+    "avatar": "/avatars/female1.png",
     "employmentType": "Remote",
     "attendance": [
       "present",
@@ -78,7 +78,7 @@
   {
     "id": "stf-3",
     "name": "Rita Evans",
-    "avatar": "/images/avatars/avatar-18.png",
+    "avatar": "/avatars/female3.png",
     "employmentType": "Internship",
     "attendance": [
       "present",
@@ -116,7 +116,7 @@
   {
     "id": "stf-4",
     "name": "Jason Hunt",
-    "avatar": "/images/avatars/avatar-19.png",
+    "avatar": "/avatars/female2.png",
     "employmentType": "Part Time",
     "attendance": [
       "present",
@@ -154,7 +154,7 @@
   {
     "id": "stf-5",
     "name": "Megan Scott",
-    "avatar": "/images/avatars/avatar-20.png",
+    "avatar": "/avatars/female1.png",
     "employmentType": "Full Time",
     "attendance": [
       "present",
