@@ -22,20 +22,37 @@ const navMenus = [
   { name: "Add Library Book", url: "/add-library-book", image: dotIcon },
 ];
 
-export default function SidebarMenu() {
+export default function SidebarMenu({ closeSidebar }) {
   return (
-    <aside className="w-64 h-full overflow-y-auto bg-white shadow-md p-4">
-      <h2 className="text-xl font-bold mb-4">EduTrack</h2>
+    // ✅ lg:sticky keeps sidebar visible while main content scrolls
+    // ✅ lg:h-screen ensures full height on desktop
+    // ✅ overflow-y-auto keeps scrolling inside sidebar when menu is long
+    <aside className="w-64 bg-white shadow-md p-4 overflow-y-auto lg:sticky lg:top-0 h-full">
+      {/* Mobile close button */}
+      <div className="flex items-center justify-between md:hidden mb-4">
+        <h2 className="text-xl font-bold">EduTrack</h2>
+        <button onClick={closeSidebar} className="text-xl font-bold">
+          ✕
+        </button>
+      </div>
+
+      {/* Desktop title */}
+      <h2 className="text-xl font-bold mb-4 hidden md:block">EduTrack</h2>
+
       <ul>
         {navMenus.map((menu, idx) => (
           <li key={idx} className="py-1">
-            <div className="flex items-center gap-2 hover:bg-gray-100 p-2">
+            <div className="flex items-center gap-2 hover:bg-gray-100 p-2 rounded-md">
               <img
                 src={menu.image}
                 alt={menu.name}
                 className="h-6 w-6 object-cover"
               />
-              <NavLink to={menu.url} className="rounded cursor-pointer">
+              <NavLink
+                to={menu.url}
+                onClick={closeSidebar}
+                className="cursor-pointer"
+              >
                 {menu.name}
               </NavLink>
             </div>

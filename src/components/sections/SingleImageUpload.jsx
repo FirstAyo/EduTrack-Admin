@@ -117,7 +117,7 @@ export default function SingleImageUpload({
 
   return (
     <div className={`w-full my-5 ${className}`}>
-      <div className="bg-white rounded-xl border border-slate-200 p-6">
+      <div className="bg-white rounded-xl border border-slate-200 p-5">
         <h3 className="text-base font-semibold text-slate-800">{title}</h3>
 
         <div

@@ -101,7 +101,7 @@ export default function DynamicForm({
         )}
       </div>
 
-      <div className="flex gap-4 mt-10">
+      <div className="flex flex-col md:flex-row gap-4 mt-10">
         <button
           onClick={() => onSubmit(formData)}
           className="bg-[#007bff] hover:bg-blue-600 text-white px-8 py-3 rounded-md font-semibold transition-colors flex items-center gap-2"

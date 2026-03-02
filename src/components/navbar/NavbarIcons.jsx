@@ -32,7 +32,7 @@ export default function NavbarIcons() {
   };
 
   return (
-    <div className="flex gap-3 items-center justify-end">
+    <div className="flex gap-3 items-center lg:justify-end justify-center">
       {/* select language button */}
       <div>
         <button
