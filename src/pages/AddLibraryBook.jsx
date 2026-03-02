@@ -16,7 +16,7 @@ export default function AddLibraryBook() {
   };
   return (
     <div className="">
-      <div className="flex justify-between">
+      <div className="flex justify-between px-2">
         <h1>{navMenus[2].name}</h1>
 
         <div className="flex items-center text-sm text-slate-600">

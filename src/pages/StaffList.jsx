@@ -13,6 +13,9 @@ const navMenus = [
   { name: "Staff List", image: dotIcon },
 ];
 
+const url = "/add-staff";
+const page = "Staff";
+
 export default function StaffList() {
   const columns = [
     {
@@ -54,9 +57,7 @@ export default function StaffList() {
     },
     {
       header: "Position",
-      render: (row) => (
-        <span className="text-slate-600">{row.position}</span>
-      ),
+      render: (row) => <span className="text-slate-600">{row.position}</span>,
     },
     {
       header: "Experience",
@@ -89,7 +90,7 @@ export default function StaffList() {
   ];
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-2">
         <h1>Staff List</h1>
 
         <div className="flex items-center text-sm text-slate-600">
@@ -102,7 +103,7 @@ export default function StaffList() {
         </div>
       </div>
 
-      <Tables data={staffList} columns={columns} />
+      <Tables data={staffList} columns={columns} url={url} page={page} />
     </div>
   );
 }

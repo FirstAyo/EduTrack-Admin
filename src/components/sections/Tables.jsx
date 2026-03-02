@@ -4,8 +4,9 @@ import React from "react";
 import Input from "../ui/Input";
 import arrowLeftIcon from "../../assets/icons/arrow-left.svg";
 import arrowRightIcon from "../../assets/icons/arrow-right.svg";
+import { NavLink } from "react-router-dom";
 
-export default function Tables({ data = [], columns = [] }) {
+export default function Tables({ data = [], columns = [], url, page }) {
   return (
     <div className="max-w-full">
       <div className="bg-white py-4 my-5 rounded-t-xl border border-slate-300 w-full overflow-hidden">
@@ -13,9 +14,12 @@ export default function Tables({ data = [], columns = [] }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-3 px-4">
           <Input placeholder="Search..." />
           <div className="flex justify-start sm:justify-end items-center">
-            <button className="text-blue-600 font-semibold hover:underline">
-              + Add New
-            </button>
+            <NavLink
+              to={url}
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              + Add New {page}
+            </NavLink>
           </div>
         </div>
 

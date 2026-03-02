@@ -13,6 +13,9 @@ const navMenus = [
   { name: "Fees Collection", image: dotIcon },
 ];
 
+const url = "/add-fees";
+const page = "Fees";
+
 export default function FeesCollection() {
   const columns = [
     {
@@ -109,7 +112,7 @@ export default function FeesCollection() {
           ))}
         </div>
       </div>
-      <Tables data={feesList} columns={columns} />
+      <Tables data={feesList} columns={columns} url={url} page={page} />
     </div>
   );
 }

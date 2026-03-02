@@ -15,6 +15,9 @@ const navMenus = [
   { name: "Course List", image: dotIcon },
 ];
 
+const url = "/add-course";
+const page = "Course";
+
 export default function CourseList() {
   const columns = [
     {
@@ -93,7 +96,7 @@ export default function CourseList() {
           ))}
         </div>
       </div>
-      <Tables data={courseList} columns={columns} />
+      <Tables data={courseList} columns={columns} url={url} page={page} />
     </div>
   );
 }

@@ -15,6 +15,9 @@ const navMenus = [
   { name: "Student List", image: dotIcon },
 ];
 
+const url = "/add-student";
+const page = "Student";
+
 export default function StudentList() {
   const columns = [
     {
@@ -88,7 +91,7 @@ export default function StudentList() {
 
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-2">
         <h1>Student List</h1>
 
         <div className="flex items-center text-sm text-slate-600">
@@ -100,7 +103,7 @@ export default function StudentList() {
           ))}
         </div>
       </div>
-      <Tables data={studentList} columns={columns} />
+      <Tables data={studentList} columns={columns} url={url} page={page} />
     </div>
   );
 }

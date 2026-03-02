@@ -17,7 +17,6 @@ const navMenus = [
   { name: "Add Courses", url: "/add-course", image: dotIcon },
   { name: "Fees Collection", url: "/fees-collection", image: dotIcon },
   { name: "Add Fees", url: "/add-fees", image: dotIcon },
-  { name: "Class", url: "#", image: dotIcon },
   { name: "Attendance", url: "/attendance", image: dotIcon },
   { name: "Library", url: "/library", image: dotIcon },
   { name: "Add Library Book", url: "/add-library-book", image: dotIcon },
@@ -25,12 +24,12 @@ const navMenus = [
 
 export default function SidebarMenu() {
   return (
-    <div className="w-64 h-full bg-white shadow-md p-4">
+    <aside className="w-64 h-full overflow-y-auto bg-white shadow-md p-4">
       <h2 className="text-xl font-bold mb-4">EduTrack</h2>
-      <ul className="">
+      <ul>
         {navMenus.map((menu, idx) => (
-          <div key={idx} className="py-1">
-            <li className="flex items-center gap-2 hover:bg-gray-100 p-2">
+          <li key={idx} className="py-1">
+            <div className="flex items-center gap-2 hover:bg-gray-100 p-2">
               <img
                 src={menu.image}
                 alt={menu.name}
@@ -39,10 +38,10 @@ export default function SidebarMenu() {
               <NavLink to={menu.url} className="rounded cursor-pointer">
                 {menu.name}
               </NavLink>
-            </li>
-          </div>
+            </div>
+          </li>
         ))}
       </ul>
-    </div>
+    </aside>
   );
 }

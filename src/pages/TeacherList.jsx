@@ -15,6 +15,9 @@ const navMenus = [
   { name: "Teacher List", image: dotIcon },
 ];
 
+const url = "/add-teacher";
+const page = "Teacher";
+
 export default function TeacherList() {
   const columns = [
     {
@@ -92,7 +95,7 @@ export default function TeacherList() {
 
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-2">
         <h1>{navMenus[2].name}</h1>
 
         <div className="flex items-center text-sm text-slate-600">
@@ -104,7 +107,7 @@ export default function TeacherList() {
           ))}
         </div>
       </div>
-      <Tables data={teacherList} columns={columns} />
+      <Tables data={teacherList} columns={columns} url={url} page={page} />
     </div>
   );
 }

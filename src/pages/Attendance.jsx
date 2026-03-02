@@ -74,7 +74,7 @@ export default function Attendance() {
 
   return (
     <div className="w-full">
-      <div className="flex justify-between">
+      <div className="flex justify-between px-2">
         <h1>{navMenus[2].name}</h1>
 
         <div className="flex items-center text-sm text-slate-600">
