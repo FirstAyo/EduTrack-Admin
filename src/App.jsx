@@ -15,6 +15,7 @@ import FeesCollection from "./pages/FeesCollection";
 import AddFees from "./pages/AddFees";
 import Attendance from "./pages/Attendance";
 import Library from "./pages/Library";
+import AddLibraryBook from "./pages/AddLibraryBook";
 
 function App() {
   return (
@@ -23,18 +24,19 @@ function App() {
         <Routes>
           <Route element={<MainLayout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/addstudent" element={<AddStudent />} />
-            <Route path="/addteacher" element={<AddTeacher />} />
-            <Route path="/addstaff" element={<AddStaff />} />
-            <Route path="/studentlist" element={<StudentList />} />
-            <Route path="/teacherlist" element={<TeacherList />} />
-            <Route path="/stafflist" element={<StaffList />} />
-            <Route path="/courselist" element={<CourseList />} />
-            <Route path="/addcourse" element={<AddCourse />} />
-            <Route path="/feescollection" element={<FeesCollection />} />
-            <Route path="/addfees" element={<AddFees />} />
+            <Route path="/add-student" element={<AddStudent />} />
+            <Route path="/add-teacher" element={<AddTeacher />} />
+            <Route path="/add-staff" element={<AddStaff />} />
+            <Route path="/student-list" element={<StudentList />} />
+            <Route path="/teacher-list" element={<TeacherList />} />
+            <Route path="/staff-list" element={<StaffList />} />
+            <Route path="/course-list" element={<CourseList />} />
+            <Route path="/add-course" element={<AddCourse />} />
+            <Route path="/fees-collection" element={<FeesCollection />} />
+            <Route path="/add-fees" element={<AddFees />} />
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/library" element={<Library />} />
+            <Route path="/add-library-book" element={<AddLibraryBook />} />
           </Route>
         </Routes>
       </section>

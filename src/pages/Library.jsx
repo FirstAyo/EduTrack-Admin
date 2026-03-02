@@ -10,7 +10,7 @@ import deleteIcon from "../assets/icons/delete.svg";
 const navMenus = [
   { name: "Dashboard", image: houseIcon },
   { name: "School", image: dotIcon },
-  { name: "Fees Collection", image: dotIcon },
+  { name: "Library", image: dotIcon },
 ];
 
 export default function Library() {

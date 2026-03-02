@@ -7,19 +7,20 @@ import dotIcon from "../../assets/icons/dot.svg";
 
 const navMenus = [
   { name: "Dashboard", url: "/", image: gradIcon },
-  { name: "Student List", url: "/studentlist", image: dotIcon },
-  { name: "Add Student", url: "/addstudent", image: dotIcon },
-  { name: "Teacher List", url: "/teacherlist", image: dotIcon },
-  { name: "Add Teacher", url: "/addteacher", image: dotIcon },
-  { name: "Staff List", url: "/stafflist", image: dotIcon },
-  { name: "Add Staff", url: "/addstaff", image: dotIcon },
-  { name: "All Courses", url: "/courselist", image: dotIcon },
-  { name: "Add Courses", url: "/addcourse", image: dotIcon },
-  { name: "Fees Collection", url: "/feescollection", image: dotIcon },
-  { name: "Add Fees", url: "/addfees", image: dotIcon },
+  { name: "Student List", url: "/student-list", image: dotIcon },
+  { name: "Add Student", url: "/add-student", image: dotIcon },
+  { name: "Teacher List", url: "/teacher-list", image: dotIcon },
+  { name: "Add Teacher", url: "/add-teacher", image: dotIcon },
+  { name: "Staff List", url: "/staff-list", image: dotIcon },
+  { name: "Add Staff", url: "/add-staff", image: dotIcon },
+  { name: "All Courses", url: "/course-list", image: dotIcon },
+  { name: "Add Courses", url: "/add-course", image: dotIcon },
+  { name: "Fees Collection", url: "/fees-collection", image: dotIcon },
+  { name: "Add Fees", url: "/add-fees", image: dotIcon },
   { name: "Class", url: "#", image: dotIcon },
   { name: "Attendance", url: "/attendance", image: dotIcon },
   { name: "Library", url: "/library", image: dotIcon },
+  { name: "Add Library Book", url: "/add-library-book", image: dotIcon },
 ];
 
 export default function SidebarMenu() {
