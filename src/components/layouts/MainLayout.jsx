@@ -10,11 +10,12 @@ export default function MainLayout() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <section className="min-h-screen flex overflow-x-hidden relative">
+    // KEY: lock the whole layout to the viewport height
+    <section className="h-screen flex overflow-hidden relative">
       {/* ======================
-         DESKTOP SIDEBAR
+         DESKTOP SIDEBAR (STICKY)
       ====================== */}
-      <div className="hidden lg:block shrink-0">
+      <div className="hidden lg:block shrink-0 lg:sticky lg:top-0 lg:h-screen">
         <SidebarMenu />
       </div>
 
@@ -43,9 +44,9 @@ export default function MainLayout() {
       </div>
 
       {/* ======================
-         MAIN CONTENT
+         MAIN CONTENT (ONLY SCROLL AREA ON DESKTOP)
       ====================== */}
-      <div className="flex-1 min-w-0 flex flex-col min-h-screen px-5">
+      <div className="flex-1 min-w-0 flex flex-col h-screen overflow-y-auto px-5">
         <NavBar openSidebar={() => setIsSidebarOpen(true)} />
 
         <main className="flex-1 min-w-0">

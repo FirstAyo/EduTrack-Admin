@@ -6,7 +6,7 @@ import NavbarIcons from "../navbar/NavbarIcons";
 
 export default function NavBar({ openSidebar }) {
   return (
-    <header className="my-7 bg-white p-3 rounded-xl border border-slate-300">
+    <header className="my-7 bg-white p-3 rounded-xl border border-slate-300 lg:grid lg:grid-cols-2">
       {/* Top row: hamburger + search */}
       <div className="flex items-center gap-3">
         {/* Hamburger - sm/md only */}
